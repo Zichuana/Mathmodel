@@ -1,9 +1,22 @@
-## 数学建模模型概念
+## 建模模型概念
 
 ### 线性规划
 
 目标函数及约束条件均为线性函数，故被称为线性规划问题。线性规划问题是在一组线性约束条件的限制下,求一线性目标函数最大或最小的问题。
 
 MATLAB标准形式
+$$
+minc^Tx\\
+x\\
+x.t. \left\{
+\begin{aligned}
+Ax\leq b\\
+Aeq\cdot x=beq\\
+lb\leq x \leq ub
+\end{aligned}
+\right.
+$$
 
-![picture1](D:\GITHUB\Mathmodel\picture1.png)
+
+
+
