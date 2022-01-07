@@ -6,4 +6,4 @@
 
 MATLAB标准形式
 
-![picture1](D:\GITHUB\Mathmodeling_model\picture1.png)
+![picture1](D:\GITHUB\Mathmodel\picture1.png)
