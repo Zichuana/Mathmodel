@@ -411,10 +411,45 @@ $$
     模糊分布法将隶属函数看成一种模糊分布，首先依据问题性质选取适当的模糊分布，然后再依据相关数据确定分布中的参数。
 
     1. 偏小型
+       $$
+       A(x)=
+       s.t.\left\{
+       \begin{aligned}
+       1,x<a\\
+       \frac{b-x}{b-a},a\leq x\leq b\\
+       0,x>b\\
+       \end{aligned}
+       \right.
+       $$
+       
 
     2. 偏大型
+       $$
+       A(x)=
+       s.t.\left\{
+       \begin{aligned}
+       0,x<a\\
+       \frac{x-a}{b-a},a\leq x\leq b\\
+       1,x>b\\
+       \end{aligned}
+       \right.
+       $$
+       
 
     3. 中间型
+       $$
+       A(x)=
+       s.t.\left\{
+       \begin{aligned}
+       0,x<a\\
+       \frac{x-a}{b-a},a\leq x< b\\
+       1,b\leq x<c\\
+       \frac{d-x}{d-c},c\leq x<d\\
+       0,x\geq d\\
+       \end{aligned}
+       \right.
+       $$
+       
 
        中间型一般适用于描述处于中间状态的模糊现象。
 
